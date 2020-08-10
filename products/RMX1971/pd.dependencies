@@ -1,0 +1,38 @@
+[
+    {
+        "remote":       "github",
+        "repository":   "xXSubrayXx/android_device_realme_rmx1971",
+        "target_path":  "device/realme/RMX1971",
+        "revision":     "pixeldust"
+    },
+    {
+        "remote":       "github",
+        "repository":   "xXSubrayXx/kernel_realme_RMX1971-1",
+        "target_path":  "kernel/realme/RMX1971",
+        "revision":     "ten"
+    },            
+    {
+        "remote":       "github",
+        "repository":   "xXSubrayXx/vendor_realme_rmx1971",
+        "target_path":  "vendor/realme/RMX1971",
+        "revision":     "ten"
+    },            
+    {
+        "target_path":  "hardware/qcom/audio",
+        "repository":   "android_hardware_qcom_audio",
+        "remote":       "pdcaf",
+        "revision":     "quiche"
+    },
+    {
+        "target_path":  "hardware/qcom/display",
+        "repository":   "android_hardware_qcom_display",
+        "remote":       "pdcaf",
+        "revision":     "quiche"
+    },     
+    {
+        "target_path":  "hardware/qcom/media",
+        "repository":   "android_hardware_qcom_media",
+        "remote":       "pdcaf",
+        "revision":     "quiche"
+    },
+]
