@@ -35,8 +35,8 @@ include vendor/pixeldust/configs/system_optional.mk
 # Google Apps
 $(call inherit-product-if-exists, vendor/gapps/gapps.mk)
 REMOVE_GAPPS_PACKAGES += \
-    GoogleCamera
-    
+    GoogleCamera \
+    NexusLauncherRelease
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := pixeldust_RMX1971
 PRODUCT_DEVICE := RMX1971
