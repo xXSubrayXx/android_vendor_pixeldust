@@ -16,15 +16,15 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from RMX1971 device
-$(call inherit-product, $(LOCAL_PATH)/device.mk)
+# inherit from device
+$(call inherit-product, device/realme/RMX1971/device.mk)
 
 # Bootanimation res
 BOOTANIMATION := 1080
 
 # Release name
 PRODUCT_RELEASE_NAME := Realme 5 Pro
-export TARGET_DEVICE := beryllium
+export TARGET_DEVICE := RMX1971
 
 # Include common PixelDust stuff
 include vendor/pixeldust/configs/pixeldust_phone.mk
@@ -37,6 +37,7 @@ $(call inherit-product-if-exists, vendor/gapps/gapps.mk)
 REMOVE_GAPPS_PACKAGES += \
     GoogleCamera \
     NexusLauncherRelease
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := pixeldust_RMX1971
 PRODUCT_DEVICE := RMX1971
