@@ -18,21 +18,21 @@
         "revision":     "ten"
     },            
     {
-        "target_path":  "hardware/qcom/audio",
-        "repository":   "android_hardware_qcom_audio",
-        "remote":       "pdcaf",
-        "revision":     "quiche"
+        "remote":       "github",
+        "repository":   "AOSPA/android_hardware_qcom_display",
+        "target_path":  "hardware/qcom-caf/sdm845/display",
+        "revision":     "quartz-845"
     },
     {
-        "target_path":  "hardware/qcom/display",
-        "repository":   "android_hardware_qcom_display",
-        "remote":       "pdcaf",
-        "revision":     "quiche"
-    },     
+        "remote":       "github",
+        "repository":   "LineageOS/android_hardware_qcom_media",
+        "target_path":  "hardware/qcom-caf/sdm845/media",
+        "revision":     "lineage-17.1-caf-sdm845"
+    },
     {
-        "target_path":  "hardware/qcom/media",
-        "repository":   "android_hardware_qcom_media",
-        "remote":       "pdcaf",
-        "revision":     "quiche"
+        "remote":       "github",
+        "repository":   "LineageOS/android_hardware_qcom_audio",
+        "target_path":  "hardware/qcom/audio",
+        "revision":     "lineage-17.1-caf-sdm845"
     },
 ]
