@@ -26,8 +26,8 @@ BOOTANIMATION := 1080
 PRODUCT_RELEASE_NAME := Realme 5 Pro
 export TARGET_DEVICE := RMX1971
 
-# Inherit from RMX1971 device
-$(call inherit-product, $(LOCAL_PATH)/device.mk)
+# Include common PixelDust stuff
+include vendor/pixeldust/configs/pixeldust_phone.mk
 
 # Include optional stuff (e.g. prebuilt apps)
 include vendor/pixeldust/configs/system_optional.mk
